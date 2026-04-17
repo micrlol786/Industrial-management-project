@@ -1,0 +1,169 @@
+{
+  "shift": {
+    "total_available_time_min": 450,
+    "customer_demand_per_shift": 80,
+    "takt_time_min": 5.625
+  },
+
+  "original": {
+    "num_workstations": 14,
+    "num_operators": 14,
+    "floor_space_m2": 250,
+    "productivity_units_per_shift": 73,
+    "wip_inventory_pct": 100,
+    "travel_distance_m": 63,
+    "material_workflow_ul_m": 365,
+    "material_handling_cost_pct": 100,
+    "labour_cost_pct": 100,
+
+    "workstations": [
+      {"id": 1,  "name": "WS1",  "cycle_time": 4.6, "fixed": true,  "x": 5.0,  "y": 8.0},
+      {"id": 2,  "name": "WS2",  "cycle_time": 3.9, "fixed": false, "x": 8.5,  "y": 8.0},
+      {"id": 3,  "name": "WS3",  "cycle_time": 3.4, "fixed": false, "x": 11.0, "y": 8.0},
+      {"id": 4,  "name": "WS4",  "cycle_time": 3.5, "fixed": false, "x": 11.0, "y": 5.5},
+      {"id": 5,  "name": "WS5",  "cycle_time": 5.1, "fixed": true,  "x": 8.0,  "y": 5.5},
+      {"id": 6,  "name": "WS6",  "cycle_time": 4.7, "fixed": true,  "x": 5.0,  "y": 6.5},
+      {"id": 7,  "name": "WS7",  "cycle_time": 3.2, "fixed": false, "x": 14.0, "y": 3.0},
+      {"id": 8,  "name": "WS8",  "cycle_time": 3.4, "fixed": false, "x": 11.0, "y": 3.0},
+      {"id": 9,  "name": "WS9",  "cycle_time": 6.1, "fixed": false, "x": 9.5,  "y": 3.0},
+      {"id": 10, "name": "WS10", "cycle_time": 3.4, "fixed": false, "x": 8.0,  "y": 3.0},
+      {"id": 11, "name": "WS11", "cycle_time": 5.2, "fixed": false, "x": 5.5,  "y": 3.0},
+      {"id": 12, "name": "WS12", "cycle_time": 4.1, "fixed": false, "x": 3.5,  "y": 3.0},
+      {"id": 13, "name": "WS13", "cycle_time": 5.1, "fixed": false, "x": 2.0,  "y": 3.0},
+      {"id": 14, "name": "WS14", "cycle_time": 5.0, "fixed": false, "x": 2.0,  "y": 1.0}
+    ],
+
+    "material_flow_ul": [
+      [0,5,0,0,1,5,0,0,0,0,0,0,0,0],
+      [0,0,5,0,0,0,0,0,0,0,0,0,0,0],
+      [0,0,0,5,0,0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,5,0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,6,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0,0,0,11,0,0],
+      [0,0,0,0,0,0,0,4,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,4,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0,4,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0,0,4,0,0,0],
+      [0,0,0,0,0,0,0,0,0,0,0,4,0,0],
+      [0,0,0,0,0,0,0,0,0,0,0,0,15,0],
+      [0,0,0,0,0,0,0,0,0,0,0,0,0,15],
+      [0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+    ],
+
+    "distance_matrix_m": [
+      [0,3.5,6,9.5,7,4,18,14.5,13,11.5,5.5,9,12.5,15],
+      [3.5,0,2.5,6,6.5,7.5,14.5,11,9.5,8,9,12.5,16,18.5],
+      [6,2.5,0,3.5,9,10,12,8.5,8,9.5,11.5,15,18.5,21],
+      [9.5,6,3.5,0,5.5,9.5,8.5,5,4.5,6,8,11.5,15,17.5],
+      [7,6.5,9,5.5,0,7,11,7.5,6,4.5,3.5,8,11.5,12],
+      [4,7.5,10,9.5,7,0,18,14.5,13,11.5,3.5,5,8.5,11],
+      [18,14.5,12,8.5,11,18,0,3.5,5,6.5,14.5,19,22.5,20],
+      [14.5,11,8.5,5,7.5,14.5,3.5,0,1.5,3,11,15.5,19,16.5],
+      [13,9.5,8,4.5,6,13,5,1.5,0,1.5,9.5,14,17.5,15],
+      [11.5,8,9.5,6,4.5,11.5,6.5,3,1.5,0,8,12.5,16,13.5],
+      [5.5,9,11.5,8,3.5,3.5,14.5,11,9.5,8,0,4.5,8,9.5],
+      [9,12.5,15,11.5,8,5,19,15.5,14,12.5,4.5,0,3.5,6],
+      [12.5,16,18.5,15,11.5,8.5,22.5,19,17.5,16,8,3.5,0,2.5],
+      [15,18.5,21,17.5,12,11,20,16.5,15,13.5,9.5,6,2.5,0]
+    ],
+
+    "bottleneck_station": 9,
+    "layout_type": "traditional_process"
+  },
+
+  "improved": {
+    "num_workstations": 12,
+    "num_operators": 12,
+    "floor_space_m2": 193.75,
+    "productivity_units_per_shift": 83,
+    "wip_inventory_pct": 64,
+    "travel_distance_m": 55,
+    "material_workflow_ul_m": 348,
+    "material_handling_cost_pct": 95.34,
+    "labour_cost_pct": 85.72,
+
+    "workstations": [
+      {"id": 1,  "name": "WS1",  "cycle_time": 4.6, "fixed": true,  "x": 5.0,  "y": 8.5},
+      {"id": 2,  "name": "WS2",  "cycle_time": 5.4, "fixed": false, "x": 8.5,  "y": 8.5},
+      {"id": 3,  "name": "WS3",  "cycle_time": 5.4, "fixed": false, "x": 11.0, "y": 8.5},
+      {"id": 4,  "name": "WS4",  "cycle_time": 5.1, "fixed": true,  "x": 8.5,  "y": 6.5},
+      {"id": 5,  "name": "WS5",  "cycle_time": 4.7, "fixed": true,  "x": 5.0,  "y": 7.0},
+      {"id": 6,  "name": "WS6",  "cycle_time": 5.4, "fixed": false, "x": 11.0, "y": 4.0},
+      {"id": 7,  "name": "WS7",  "cycle_time": 5.4, "fixed": false, "x": 9.5,  "y": 4.0},
+      {"id": 8,  "name": "WS8",  "cycle_time": 5.3, "fixed": false, "x": 8.0,  "y": 4.0},
+      {"id": 9,  "name": "WS9",  "cycle_time": 5.2, "fixed": false, "x": 8.0,  "y": 2.0},
+      {"id": 10, "name": "WS10", "cycle_time": 4.1, "fixed": false, "x": 6.0,  "y": 2.0},
+      {"id": 11, "name": "WS11", "cycle_time": 5.1, "fixed": false, "x": 4.5,  "y": 2.0},
+      {"id": 12, "name": "WS12", "cycle_time": 5.0, "fixed": false, "x": 4.5,  "y": 4.0}
+    ],
+
+    "material_flow_ul": [
+      [0,5,0,1,5,0,0,0,0,0,0,0],
+      [0,0,5,0,0,0,0,0,0,0,0,0],
+      [0,0,0,5,0,0,0,0,0,0,0,0],
+      [0,0,0,0,6,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0,0,11,0],
+      [0,0,0,0,0,0,4,0,0,0,0,0],
+      [0,0,0,0,0,0,0,4,0,0,0,0],
+      [0,0,0,0,0,0,0,0,4,0,0,0],
+      [0,0,0,0,0,0,0,0,0,4,0,0],
+      [0,0,0,0,0,0,0,0,0,0,15,0],
+      [0,0,0,0,0,0,0,0,0,0,0,15],
+      [0,0,0,0,0,0,0,0,0,0,0,0]
+    ],
+
+    "distance_matrix_m": [
+      [0,3.5,7.5,7,4,13.5,12,10.5,7.5,10.5,10,13],
+      [3.5,0,4,6.5,7.5,10,8.5,7,10,14,13.5,10.5],
+      [7.5,4,0,6.5,7.5,6,5.5,7,10,14,13.5,10.5],
+      [7,6.5,6.5,0,7,6.5,5,3.5,3.5,7.5,7,6],
+      [4,7.5,7.5,7,0,13.5,12,10.5,7.5,6.5,10,13],
+      [13.5,10,6,6.5,13.5,0,1.5,3,6,10,9.5,6.5],
+      [12,8.5,5.5,5,12,1.5,0,1.5,4.5,8.5,8,5],
+      [10.5,7,7,3.5,10.5,3,1.5,0,3,7,6.5,3.5],
+      [7.5,10,10,3.5,7.5,6,4.5,3,0,4,3.5,5.5],
+      [10.5,14,14,7.5,6.5,10,8.5,7,4,0,3.5,6.5],
+      [10,13.5,13.5,7,10,9.5,8,6.5,3.5,3.5,0,3],
+      [13,10.5,10.5,6,13,6.5,5,3.5,5.5,6.5,3,0]
+    ],
+
+    "layout_type": "u_shaped_cellular",
+    "cell_boundaries": {"x_min": 4.0, "x_max": 12.0, "y_min": 1.5, "y_max": 5.0},
+    "free_space_m2": 56,
+    "free_space_location": {"x_min": 0, "x_max": 4, "y_min": 0, "y_max": 9}
+  },
+
+  "lean_tools_applied": [
+    "Value Stream Mapping",
+    "Takt-Time Analysis",
+    "Line Balancing",
+    "Cellular Design",
+    "5S",
+    "Workplace Ergonomics",
+    "Pull",
+    "Just In Time (JIT)",
+    "Kanban",
+    "Supermarket",
+    "One-piece Flow",
+    "Visual Management",
+    "Standardisation"
+  ],
+
+  "supermarkets": [
+    {"id": "SM1", "x": 4.5, "y": 6.5},
+    {"id": "SM2", "x": 11.5, "y": 6.5}
+  ],
+
+  "kpi_comparison": {
+    "longest_cycle_time":     {"original": 6.1,   "improved": 5.4,    "unit": "min",   "change_pct": -11.47},
+    "productivity":           {"original": 73,     "improved": 83,     "unit": "u/shift","change_pct": 13.7},
+    "num_workstations":       {"original": 14,     "improved": 12,     "unit": "pcs",   "change_pct": -14.28},
+    "num_operators":          {"original": 14,     "improved": 12,     "unit": "person","change_pct": -14.28},
+    "wip_inventory":          {"original": 100,    "improved": 64,     "unit": "%",     "change_pct": -36.0},
+    "floor_space":            {"original": 250,    "improved": 193.75, "unit": "m²",    "change_pct": -22.5},
+    "material_workflow":      {"original": 365,    "improved": 348,    "unit": "UL·m",  "change_pct": -4.66},
+    "travel_distance":        {"original": 63,     "improved": 55,     "unit": "m",     "change_pct": -12.7},
+    "material_handling_cost": {"original": 100,    "improved": 95.34,  "unit": "%",     "change_pct": -4.66},
+    "labour_cost":            {"original": 100,    "improved": 85.72,  "unit": "%",     "change_pct": -14.28}
+  }
+}

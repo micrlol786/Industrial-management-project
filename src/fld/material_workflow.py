@@ -1,16 +1,4 @@
-"""
-material_workflow.py
---------------------
-Facility Layout Design (FLD) objective function and analysis.
 
-Implements:
-  • Equation 1  — Material Workflow (E_MWF = Σ q_ij * l_ij)
-  • Equation 4  — Material Handling Cost
-  • Equation 5  — Labour Cost
-  • Full KPI comparison table (Table 3 from the paper)
-
-Kovács (2020), Section 2.3 and 4.3.
-"""
 
 import numpy as np
 from typing import List, Dict, Any, Optional

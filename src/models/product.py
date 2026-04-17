@@ -1,6 +1,4 @@
-"""
-Product (unit) model — tracks each unit as it flows through the assembly line.
-"""
+
 
 from dataclasses import dataclass, field
 from typing import List, Optional

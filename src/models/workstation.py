@@ -1,7 +1,3 @@
-"""
-Workstation model for the Lean+FLD simulation.
-Based on Kovács (2020) — automotive component assembly plant.
-"""
 
 from dataclasses import dataclass, field
 from typing import Optional

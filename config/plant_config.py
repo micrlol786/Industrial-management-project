@@ -1,9 +1,3 @@
-"""
-Plant configuration data extracted directly from:
-Kovács (2020) - Combination of Lean value-oriented conception and
-facility layout design for even more significant efficiency improvement
-and cost reduction. IJPR 58(10), 2916-2936.
-"""
 
 # ─────────────────────────────────────────────
 # PRODUCTION PARAMETERS

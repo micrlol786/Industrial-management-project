@@ -1,10 +1,4 @@
-"""
-facility_layout.py – Facility Layout Design (FLD) module.
 
-Implements the optimisation procedure described in Section 2.3.1 of
-Kovács (2020): minimise total material workflow E_MWF = Σ q_ij * l_ij
-by searching candidate layouts via a greedy / local-search approach.
-"""
 
 from __future__ import annotations
 import math

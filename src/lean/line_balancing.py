@@ -1,12 +1,4 @@
-"""
-line_balancing.py
------------------
-Implements Lean tools from the paper:
-  • Takt-Time Analysis  (Section 4.2.2)
-  • Line Balancing      (Section 4.2.3)
 
-Reproduces Tables 1 & 2 and Figures 3 & 4 from Kovács (2020).
-"""
 
 from typing import List, Dict, Any
 

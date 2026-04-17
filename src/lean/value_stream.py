@@ -1,11 +1,3 @@
-"""
-value_stream.py
----------------
-Value Stream Mapping (VSM) analysis: identifies wastes, computes
-process metrics, and structures Current State vs Future State comparison.
-
-Implements Lean principle 2 — "The Value Stream" from Section 2.2.2.
-"""
 
 from typing import Dict, List, Any
 

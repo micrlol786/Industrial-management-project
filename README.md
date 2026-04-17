@@ -32,7 +32,4 @@ python main.py --no-plots   # skip figure generation
 | Travel Distance | 63 m | 55 m | **−12.7%** |
 | Space Used | 250 m² | 193.75 m² | **−22.5%** |
 
-## Related repos
-- [OpenFactoryTwin/ofact](https://github.com/OpenFactoryTwin/ofact)
-- [ailton-santos/leanmanufacturing](https://github.com/ailton-santos/leanmanufacturing)
-- [SHOP4CF/MPMS](https://github.com/SHOP4CF/MPMS)
+

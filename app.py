@@ -283,7 +283,7 @@ with tab_kpi:
             "Change (%)": round(pct, 2),
         })
     df = pd.DataFrame(rows)
-    st.dataframe(df.style.applymap(
+    st.dataframe(df.style.map(
         lambda v: "color: #2ECC71" if isinstance(v, float) and v < 0
                   else ("color: #E05C5C" if isinstance(v, float) and v > 0 else ""),
         subset=["Change (%)"]

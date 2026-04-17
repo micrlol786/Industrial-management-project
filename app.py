@@ -341,6 +341,6 @@ with tab_about:
     | Material Workflow | 365 UL·m | 348 UL·m | **−4.66%** |
     | Travel Distance | 63 m | 55 m | **−12.7%** |
     | Labour Cost | 100% | 85.7% | **−14.3%** |
-    | Space Used | 250 m² | 193.75 m² | **−22.5%** |
+    | Space Used | 250 m² | 193.75 m² | **−22.5%** | """
 
 )

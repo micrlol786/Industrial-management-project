@@ -343,9 +343,4 @@ with tab_about:
     | Labour Cost | 100% | 85.7% | **−14.3%** |
     | Space Used | 250 m² | 193.75 m² | **−22.5%** |
 
-    ---
-    ### GitHub repos referenced
-    - [OpenFactoryTwin/ofact](https://github.com/OpenFactoryTwin/ofact)
-    - [ailton-santos/leanmanufacturing](https://github.com/ailton-santos/leanmanufacturing)
-    - [SHOP4CF/MPMS](https://github.com/SHOP4CF/MPMS)
-    """)
+)
